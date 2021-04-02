@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 3 - Bootstrap</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar nav-expand-sm navbar-light" style="background: transparent !important;">
+      <a href="index.html" class="navbar-brand">Shannon Beelman Photography</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-control="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false" id="navbarDropdownMenuLink">Portfolio</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a href="portfolio/portrait.html" class="dropdown-item">Portrait</a>
+            <a href="portfolio/freelance.html" class="dropdown-item">Freelance</a>
+
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="blog.html" class="nav-link">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a href="bio.html" class="nav-link">Biography</a>
+        </li>
+        <li class="nav-item">
+          <a href="rates.html" class="nav-link">Rates</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+  <main class="content">
+    <div class="row">
+      <div class="col-lg-6 my-auto">
+        <div class="card card-body bg-light text-secondary text-center">
+          <h3 class="card-head mt-1">
+            Shannon Beelman
+          </h3>
+<br><br>
+      <a class="text-decoration-none card-link" href="mailto:shannonbeelman@gmail.com"><h3>shannonbeelman@gmail.com</h3></a>
+<br><br>
+      <a class="text-decoration-none card-link" href="tel:702-630-8744"><h3>702-630-8744</h3></a>
+</div>
+</div>
+  <div class="col-lg-6">
+    <form>
+      <h3 class="showcase mt-5 text-center">Send me a message today!</h3>
+      <div class="mb-3 mt-5 px-5">
+        <label for="exampleInputPassword1" class="form-label">Name</label>
+        <input type="text" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 px-5">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="px-5">
+        <label for="message" class="form-label">Message:</label>
+        <textarea class="form-control" placeholder="Enter your message here" id="floatingTextarea2" style="height: 15rem"></textarea>
+
+      </div>
+      <div class="mb-3 px-5 pt-3 pb-1 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Receive our promotional e-mails</label>
+      </div>
+      <div class="row">
+      <div class="col-md-4 mx-auto">
+        <button type="submit" class="btn btn-primary ml-3 mb-3">Submit</button>
+    </div>
+  </div>
+    </form>
+  </div>
+</div>
+  </main>
+
+    
+    <div class="footer">
+      <p>&copy; 2021 Shannon Beelman Photography</p>
+    </div>
+</div>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

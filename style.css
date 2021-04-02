@@ -1,0 +1,17 @@
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  text-shadow: 0px 0px 5px #fff;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #333;
+}
+#noscroll {
+  overflow: hidden;
+}
+
+td {
+  text-align: center;
+}
